@@ -1,5 +1,5 @@
 # Program 1: Implement search(nums: List[int], target: int) -> int and myPow(x: float, n: int)-> float functions taking an integer array/target and base/exponent pairs, returning index and computed value respectively.
-def search(nums: List[int], target: int) -> int:
+def search(nums: list[int], target: int) -> int:
     left = 0
     right = len(nums)-1
     while left <= right:
